@@ -1,5 +1,4 @@
-from email import header
-from itertools import count
+
 from Node import Node
 
 class LinkedList:
