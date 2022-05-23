@@ -1,5 +1,3 @@
-from email import header
-from itertools import count
 from Node import Node
 
 class LinkedList:
@@ -19,6 +17,7 @@ class LinkedList:
         while(self.tail.next):
             self.tail = self.tail.next
         self.tail.next = node
+        
 
 
     def Remove(self, data):
